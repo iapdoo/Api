@@ -21,6 +21,7 @@ class CreateCategoriesTable extends Migration
             $table->string('name_en');
             $table->string('title_en');
             $table->string('description_en');
+            $table->integer('active')->defulte('1');
             $table->timestamps();
         });
     }

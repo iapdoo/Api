@@ -16,6 +16,7 @@ class category extends Model
         'name_en',
         'title_en',
         'description_en',
+        'active',
     ];
 
 }
